@@ -1,4 +1,4 @@
-myObj = [ //This is a javascript object
+myObj =  {"People":[ //This is a javascript object
     { 
         "Id": "1", 
         "FirstName":"Rob",
@@ -17,6 +17,6 @@ myObj = [ //This is a javascript object
         "LastName":"Bishop", 
         "Email":"gregg.bishop@elma.com" 
     }
-]
+]}
 
-console.log(myObj[0].FirstName)
+console.log(myObj.People[1].LastName);
