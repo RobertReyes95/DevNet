@@ -19,4 +19,4 @@ myObj =  {"People":[ //This is a javascript object
     }
 ]}
 
-console.log(myObj.People[1].LastName);
+console.log(myObj.People[1].LastName); //print:Smith
