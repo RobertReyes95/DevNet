@@ -1,22 +1,26 @@
-myObj =  {"People":[ //This is a javascript object
+myObj =  {"People":
+[
     { 
-        "Id": "1", 
+        "Id": 1, 
         "FirstName":"Rob",
         "LastName":"Rey", 
-        "Email":"robert.reyes@elma.com" 
+        "Email":"robert.reyes@elma.com", 
+        "Active": true
     }, 
     {
-        "Id": "2", 
+        "Id": 2, 
         "FirstName":"Jonas",
         "LastName":"Smith", 
-        "Email":"jonas.smith@elma.com" 
-    },
+        "Email":"jonas.smith@elma.com",
+        "Active": false     },
     {
-        "Id": "3", 
+        "Id": 3, 
         "FirstName":"Gregg",
         "LastName":"Bishop", 
-        "Email":"gregg.bishop@elma.com" 
+        "Email":"gregg.bishop@elma.com",
+        "Active": true
     }
-]}
+]
+}
 
-console.log(myObj.People[1].LastName); //print:Smith
+console.log(myObj.People[1].Id); //prints: 2
