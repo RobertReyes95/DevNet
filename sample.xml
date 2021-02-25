@@ -7,8 +7,8 @@
     </Person>
     
     <Person Id="2">
-        <FirstName>Jonas</Firstname>
-        <Lastname>Smith-Strawn</LastName>
+        <FirstName>Jonas</FirstName>
+        <LastName>Smith-Strawn</LastName>
         <Email>jonas.smith@elma.com</Email>
     </Person>
 </People>
