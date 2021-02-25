@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<People>
+    <Person Id="1">
+        <FirstName>Robert</FirstName>
+        <LastName>Reyes</LastName>
+        <Email>robert.reyes@elma.com</Email>
+    </Person>
+    
+    <Person Id="2">
+        <FirstName>Jonas</Firstname>
+        <Lastname>Smith-Strawn</LastName>
+        <Email>jonas.smith@elma.com</Email>
+    </Person>
+</People>
+    
