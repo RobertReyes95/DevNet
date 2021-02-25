@@ -9,10 +9,11 @@ myObj =  {"People":
     }, 
     {
         "Id": 2, 
-        "FirstName":"Jonas",
+        "FirstName":["Jonas", "Smith"],
         "LastName":"Smith", 
         "Email":"jonas.smith@elma.com",
-        "Active": false     },
+        "Active": false     
+    },
     {
         "Id": 3, 
         "FirstName":"Gregg",
@@ -23,4 +24,4 @@ myObj =  {"People":
 ]
 }
 
-console.log(myObj.People[1].Id); //prints: 2
+console.log(myObj[1].FirstName);
