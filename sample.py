@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 #Get the XML file data
 stream = open('sample.xml', 'r')
 
-#Parse tge data into an Elament tree object
+#Parse the data into an Elament tree object
 xml = ET.parse(stream)
 
 #Get the root Element objet from the elemenetree 
@@ -16,4 +16,4 @@ for e in root:
     print("")
 
     #print the 'Id' attribute of the element object
-
+    print(e.get('Id'))
