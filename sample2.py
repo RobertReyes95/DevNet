@@ -6,5 +6,5 @@ stream = open ('sample.xml', 'r')
 #Prase  the XML file into an 'OrderDict'
 xml = xmltodict.parse(stream.read())
 
-for e in xml["People"]:
+for e in xml["People"]["Person"]:
     print(e)
